@@ -1,0 +1,16 @@
+.ground {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.box{
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background: #1e7c70;
+}
+.item{
+  grid-row: 1/6;
+  background: #570e79;
+}
